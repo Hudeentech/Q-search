@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/quatum-icon.svg" />
+    <link rel="stylesheet" href="/font-6/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- ******************** javascript links ************************** -->
+
+    <script type="text/javascript" defer src="./main/bookMarks.js"></script>
+    <script type="text/javascript" defer src="./main/animation.js"></script>
+    <script type="text/javascript" defer src="./main/suggestion.js"></script>
+
+    <title>Quantum Home</title>
+</head>
+
+ <body class="background ">        
+    <img id="background" class="block h-screen transition-all ease-in-out duration-300 delay-300 object-cover w-full fixed top-0 -z-30" src="./assets/img (11).jpg" alt="">
+
+    <div class=" px-y w-[200px] top-8 left-7 fixed hidden sm:block   sm:w-[250px] backdrop-blur-lg rounded-lg shadow-lg mb-24 " id="quote-card">
+        <p class="text-sm p-5 text-white ">"In the midst of winter, I found there was, within me, an invincible summer." - Albert </p>
+   </div>
+
+      <!-- profile icon -->
+
+    <button onclick="showProfile()" class="theme profile-icon right-8 top-8 left-auto fixed">   
+        <i class="fas fa-user text-xl"></i>
+    </button>
+
+     <!-- slide menu -->
+
+     <div class="relative">
+        <div id="theme-slide" class="theme-optionsOut gap-y-4 slideMenu ">
+            <div class="w-11/12 flex justify-center items-center flex-col space-y-4">
+
+                <div class="mb-8">
+                    <h4 class="capitalize dark:text-white text-sm sm:text-lg text-gray-800 font-medium">hudeen09@gmail.com</h4>
+                </div>
+
+                <div>
+                    <img class="w-150px h-[150px] rounded-full" src="./assets/icons (2).jpg" alt="">
+                </div>
+
+                <h3 class="py-4 px-3 sm:text-5xl text-3xl text-left font-semibold capitalize 
+                dark:text-yellow-400 text-gray-800">hi hudeen</h3>
+            </div>
+
+            <!-- dark and light theme container btn -->
+
+            <div class="flex flex-row w-[90%] md:w-[75%] outline outline-1 outline-purple-400 
+            dark:outline-gray-600 rounded-full">
+                <div id="theme-toggle-light" class="light-btn">
+                    <i class="fas fa-sun mr-3 text-base text-yellow-400 "></i>
+                    <p class="text-sm">light mode</p>
+                </div>
+
+                <div id="theme-toggle-dark" class="dark-btn">
+                    <i class="fas fa-moon mr-3 text-base text-yellow-400"></i>
+                    <p class="text-sm">dark mode</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-y-2 w-[90%] md:w-[75%] outline outline-1 outline-purple-400 
+            dark:outline-gray-600 rounded-2xl">
+                <div id="theme-toggle-light" class=" px-4 rounded-t-2xl text-base transition-all duration-300 ease-linear w-full py-3 flex flex-row items-center capitalize dark:text-[#cfcfcf]
+                hover:bg-purple-900 hover:text-yellow-400  text-gray-800 dark:bg-[#292929] dark:hover:bg-[#303030]">
+                    <i class="fas fa-history mr-3 text-base text-yellow-400 "></i>
+                    <p class="text-sm">search history</p>
+                </div>
+                <hr>
+                <div id="theme-toggle-dark" class=" px-4 rounded-b-2xl text-base transition-all duration-300 ease-linear w-full py-3 flex flex-row items-center capitalize dark:text-[#cfcfcf]
+                hover:bg-purple-900 hover:text-yellow-400  text-gray-800 dark:bg-[#292929] dark:hover:bg-[#303030]">
+                    <i class="fas fa-trash mr-3 text-base text-red-500"></i>
+                    <p class="text-sm">delete all history</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mx-auto w-[95%] mt-16 max-w-screen-lg sm:min-w-[45%] pt-4">
+        <div class="flex flex-col justify-center items-center">
+
+            <div class="flex p-3 my-3">
+                <img class=" w-52 sm:w-64"  src="./assets/quatum-main.svg" alt="">
+            </div>
+            <!-- Search Bar -->
+            <div  class="flex flex-row items-center justify-center  my-4 w-full sm:w-[70%] m-auto">
+                <div class=" wrapper min-w-full flex flex-row mx-auto my-2">
+                    <div class="search-input z-30 relative w-full flex flex-row items-center justify-center">
+                        <a href="" target="_blank" hidden></a>
+
+                        <!-- ****************inpput***************** -->
+                        <input id="nav-input" type="text" placeholder="Type to search.."
+                            class=" input min-w-full dark:bg-[#28282b] dark:text-gray-200 rounded-full shadow-md text-sm py-4 px-4 outline-none"
+                            style="padding-right: 60px; padding-left:60px;">
+    
+                            <div id="icon" class="absolute top-0 left-1 h-full flex items-center mr-4 ">
+                                <a class="block" href="./index.html"><img class="w-[55px] p-2" src="./assets/quatum-icon (1).svg" alt=""></a>
+                            </div>
+                            <div id="icon" class="absolute top-0 right-7 h-full flex items-center mr-4 bg-gradient-to-tr from-yellow-400 to-purple-700 bg-clip-text text-transparent">
+                                <i  class="fas fa-qrcode text-xl"></i>
+                            </div>
+                            <div id="icon" class="absolute top-0 right-0 h-full flex items-center mr-4 bg-gradient-to-tr from-yellow-400 to-purple-700 bg-clip-text text-transparent">
+                                <i  class="fas fa-microphone text-xl"></i>
+                            </div>
+
+                            <!-- ***************** auto complete ***************** -->
+                        <div class="autocom-box absolute -z-10 empty:hidden w-full dark:bg-custom-bg  bg-white rounded-md rounded-b-lg shadow-md overflow-y-auto  max-h-60 mt-10 -top-1.5 pt-8 transition-opacity hidden "></div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div id="bookmarkList" class="container w-full md:max-w-[65%] sm:max-w-[50%] items-center justify-center mx-auto gap-4 
+                flex flex-row flex-wrap :grid-cols-3 overflow-y-scroll max-h-[50vh] px-3 pt-4 mt-10">
+
+                <div class="relative flex flex-col justify-center items-center h-[auto] hover:bg-[#4e4e4e58] space-y-2 capitalize rounded-lg p-4 hover:backdrop-blur-[2px]" >
+                    <button onclick="addBookMark()" id="add-btn" class="bg-yellow-400 transition-all  duration-200 hover:bg-yellow-200 hover:scale-110 text-gray-900 text-2xl font-bold py-2 px-4 rounded-xl"><i class="fas fa-plus"></i></button>
+                    <p class="text-xs text-white">add shortcut</p>
+                </div>
+                
+                <!-- Bookmark Section -->
+             
+                <!-- Bookmark cards will be dynamically added here -->
+
+            </div> 
+
+            <!-- Edit/Delete Modal -->
+        
+            <div id='editDeleteModal' class="absolute top-1/2 left-1/2 transform -translate-x-1/2 hidden -translate-y-1/2 bg-white p-4 rounded shadow-md">
+            <button id="editBookmark" class="block w-full text-left py-2 px-4 hover:bg-gray-100">Edit</button>
+            <button id="deleteBookmark" class="block w-full text-left py-2 px-4 hover:bg-gray-100 text-red-600">Delete</button>
+            </div>
+
+            </div>
+          
+            <a href="./search-page.html"><h3 class="fixed left-4 md:left-auto md:right-8 top-8 md:top-auto md:bottom-6 text-base font-normal text-white ">Quatum live</h3></a>
+        </div>
+       
+    </div>
+
+    <dialog id="book-modal" class="fixed top-0 left-0 bottom-0 right-0 m-auto backdrop:bg-[#00000065] bg-transparent  transition-all justify-center items-center duration-300 ease-in-out w-full h-full">
+        <button onclick="CloseModal()" class="p-4 hover:bg-[#8080801d] text-white fixed top-4 right-4 text-4xl "><i class="fas fa-close"></i></button>
+        <div id="bookForm" class="w-[80%] h-[35%] sm:w-[40%] md:w-[35%] flex flex-col items-center justify-start mx-auto bg-white rounded p-4 shadow-md">
+            <h2 class="text-lg text-custom-bg font-bold mb-4">Add Bookmarks</h2>
+            
+            <!-- Add Bookmark Form -->
+            <div class="flex-1">
+              <input type="text" id="bookmarkName" class="w-full border border-gray-300 rounded px-3 py-2" placeholder="Bookmark Name">
+              <input type="url" id="bookmarkURL" class="w-full mt-2 border border-gray-300 rounded px-3 py-2" placeholder="Bookmark URL">
+              <button id="addBookmark" class="mt-2 bg-yellow-400 text-custom-bg py-2 px-4 rounded"><i class=" fas fa-add"></i> <span>Add</span> </button>
+            </div>
+        </div>
+    </dialog>
+   
+</body>
+</html>
