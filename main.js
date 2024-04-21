@@ -4,56 +4,56 @@ const searchResults = [
         title: "The Lost City of Atlantis",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!",
         sourceName: "Explorers' Journal",
-        sourceLogo: "../assets/icons (1).jpg",
+        sourceLogo: "./assets/icons (1).jpg",
         sourceLink: "https://example.com/lost-city-atlantis"
     },
     {
         title: "The Time Traveler's Dilemma",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!Unravel the mysteries of time travel in this mind-bending adventure.",
         sourceName: "Temporal Gazette",
-        sourceLogo: "../assets/icons (1).png",
+        sourceLogo: "./assets/icons (1).png",
         sourceLink: "https://example.com/time-travelers-dilemma"
     },
     {
         title: "The Lost City of Atlantis",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!",
         sourceName: "Explorers' Journal",
-        sourceLogo: "../assets/icons (2).jpg",
+        sourceLogo: "./assets/icons (2).jpg",
         sourceLink: "https://example.com/lost-city-atlantis"
     },
     {
         title: "The Time Traveler's Dilemma",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!Unravel the mysteries of time travel in this mind-bending adventure.",
         sourceName: "Temporal Gazette",
-        sourceLogo: "../assets/icons (3).jpg",
+        sourceLogo: "./assets/icons (3).jpg",
         sourceLink: "https://example.com/time-travelers-dilemma"
     },
     {
         title: "The Lost City of Atlantis",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!",
         sourceName: "Explorers' Journal",
-        sourceLogo: "../assets/icons (3).png",
+        sourceLogo: "./assets/icons (3).png",
         sourceLink: "https://example.com/lost-city-atlantis"
     },
     {
         title: "The Time Traveler's Dilemma",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!Unravel the mysteries of time travel in this mind-bending adventure.",
         sourceName: "Temporal Gazette",
-        sourceLogo: "../assets/icons (4).png",
+        sourceLogo: "./assets/icons (4).png",
         sourceLink: "https://example.com/time-travelers-dilemma"
     },
     {
         title: "The Lost City of Atlantis",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!",
         sourceName: "Explorers' Journal",
-        sourceLogo: "../assets/icons (5).png",
+        sourceLogo: "./assets/icons (5).png",
         sourceLink: "https://example.com/lost-city-atlantis"
     },
     {
         title: "The Time Traveler's Dilemma",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, expedita inventore aspernatur consectetur sint nisi quaerat at placeat, perferendis labore perspiciatis mollitia voluptatum cupiditate magni voluptates. Odit corporis vitae error!Unravel the mysteries of time travel in this mind-bending adventure.",
         sourceName: "Temporal Gazette",
-        sourceLogo: "../assets/icons (4).jpg",
+        sourceLogo: "./assets/icons (4).jpg",
         sourceLink: "https://example.com/time-travelers-dilemma"
     },
     // Add more search result objects here...
